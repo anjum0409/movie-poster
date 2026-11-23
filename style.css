@@ -1,0 +1,96 @@
+/* Step 1: Reset Default Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Step 2: Body Styling */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Main Heading */
+
+.main-heading {
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* Step 3: Hero Section */
+
+.hero-section {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    padding: 30px;
+    gap: 30px;
+
+    min-height: 80vh;
+}
+
+
+/* Step 4: Poster Card Styling */
+
+.poster-card {
+    flex: 1 1 200px;
+
+    max-width: 250px;
+
+    text-align: center;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* Step 5: Poster Image Styling */
+
+.poster {
+    width: 200px;
+
+    height: auto;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+
+    transition: transform 0.3s ease;
+}
+
+
+/* Step 6: Hover Effect */
+
+.poster-card:hover {
+    transform: scale(1.08);
+}
+
+
+/* Step 7: Movie Name Styling */
+
+.poster-card h2 {
+    font-size: 1.1rem;
+
+    margin: 10px 0 5px 0;
+}
+
+
+/* Step 8: Movie Rating and Genre */
+
+.poster-card p {
+    font-size: 0.85rem;
+
+    color: lightgray;
+}
